@@ -1,0 +1,24 @@
+<!-- ImageAI - Full Color Gradient Text Logo -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 120" width="560" height="120" role="img" aria-labelledby="title desc">
+  <title id="title">ImageAI Gradient Logo</title>
+  <desc id="desc">Full-color gradient wordmark for ImageAI</desc>
+  <defs>
+    <!-- multi-stop gradient -->
+    <linearGradient id="gradFull" x1="0" x2="1">
+      <stop offset="0%" stop-color="#06b6d4"/>   <!-- cyan -->
+      <stop offset="25%" stop-color="#3b82f6"/>  <!-- blue -->
+      <stop offset="50%" stop-color="#8b5cf6"/>  <!-- violet -->
+      <stop offset="75%" stop-color="#ec4899"/>  <!-- pink -->
+      <stop offset="100%" stop-color="#f59e0b"/> <!-- amber -->
+    </linearGradient>
+  </defs>
+
+  <text x="20" y="80"
+        font-family="Inter, Poppins, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
+        font-weight="800"
+        font-size="68"
+        fill="url(#gradFull)"
+        letter-spacing="1">
+    ImageAI
+  </text>
+</svg>
